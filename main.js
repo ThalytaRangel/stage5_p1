@@ -38,7 +38,7 @@ function toggleScreen() {
   screen2.classList.toggle("hide")
 }
 
-function handleKeyDown() {
+function handleKeyDown(e) {
   if(e.key == 'Enter' && screen1.classList.contains('hide')) {
     handleTryAgainClick()
   }
